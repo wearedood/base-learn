@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+coverage.json
+
+# Production
+build/
+dist/
+
+# Hardhat
+artifacts/
+cache/
+typechain-types/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Deployments (keep structure but not addresses)
+deployments/*/*
+!deployments/*/
+
+# Misc
+.openzeppelin/
+.defender/
+*.log
+temp/
+tmp/
